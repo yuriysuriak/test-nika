@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотогалерея - Holiday Stay Nika</title>
+    <link rel='stylesheet' href='gallery.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Кнопка перемикача мови -->
+<div class="language-switcher">
+    <a href="en/en-gallery.html" class="lang-btn">
+        <span class="lang-icon"><i class="fas fa-globe"></i></span>
+        <span class="lang-text">ENG</span>
+    </a>
+</div>
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <div class="header-line">
+            <div class="header-logo">
+    <a href="index.html">
+        <img src="photo/logo.png" alt="Логотип Holiday Stay Nika">
+    </a>
+</div>
+            <div class="burger-menu">
+                <span></span><span></span><span></span>
+            </div>
+           
+            
+            <nav class="desktop-nav">
+                <a class="nav-item" href="index.html#home">ГОЛОВНА</a>
+                <a class="nav-item" href="index.html#about">ПРО НАС</a>
+                <a class="nav-item" href="index.html#features">ЗРУЧНОСТІ</a>
+                <a class="nav-item active" href="gallery.html">ФОТОГАЛЕРЕЯ</a>
+            </nav>
+            
+            <div class='phone'>
+                <div class='phone-holder'>
+                    <div class='phone-img'><img src="photo/phone.png" alt="Телефон"></div>
+                    <div class='number'><a class='num' href='tel:+3800684272222'>+380-068-427-2222</a></div>
+                </div>
+                <div class='phone-text'>Зв'яжіться з нами для <br> бронювання</div>
+            </div>
+            <div class='btn'>
+                <a class='button' href="https://www.booking.com/hotel/ua/holiday-stay-nika.ru.html" target="_blank">ЗАБРОНЮВАТИ</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Мобільне меню -->
+<nav class="mobile-nav">
+    <a class="nav-item" href="index.html#home">ГОЛОВНА</a>
+    <a class="nav-item" href="index.html#about">ПРО НАС</a>
+    <a class="nav-item" href="index.html#features">ЗРУЧНОСТІ</a>
+    <a class="nav-item active" href="gallery.html">ФОТОГАЛЕРЕЯ</a>
+    <div class="mobile-phone">
+        <a class='num' href='tel:+3800684272222'><i class="fas fa-phone"></i> +380-068-427-2222</a>
+    </div>
+    <div class="mobile-btn">
+        <a class='button' href="https://www.booking.com/hotel/ua/holiday-stay-nika.ru.html" target="_blank">ЗАБРОНЮВАТИ</a>
+    </div>
+</nav>
+<div class="menu-overlay"></div>
+
+<!-- Галерея -->
+<section class="gallery-section">
+    <div class="container">
+        <div class="gallery-intro">
+            <h2>Наша Фотогалерея</h2>
+            <p>Ласкаво просимо до нашої фотогалереї, де ви можете побачити атмосферу Holiday Stay Nika. Тут ми зібрали найкращі моменти, які чекають на вас: затишні номери, мальовничий вигляд з вікон, зручності та незабутні враження від відпочинку в нашому готелі. Дозвольте собі зануритися у світ комфорту та гармонії!</p>
+            
+            <div class="gallery-categories">
+                <button class="category-btn active" data-category="all">Всі фото</button>
+                <button class="category-btn" data-category="rooms">Номери</button>
+                <button class="category-btn" data-category="view">Види</button>
+                <button class="category-btn" data-category="facilities">Зручності</button>
+                <button class="category-btn" data-category="menu">Меню</button>
+            </div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="rooms">
+                <img src="https://holiday-stay-nika-busk.hotelmix.com.ua/data/Photos/450x450/16136/1613697/1613697644.JPEG" alt="Затишний номер у Holiday Stay Nika">
+                <div class="img-caption">Стандартний номер з двоспальним ліжком</div>
+            </div>
+            <div class="gallery-item" data-category="view">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/259415645.jpg?k=ad8f413ebc8d6117b6c295ed3eb4e0f13d2b77665ab3e6e7746d40ca722440da&o=&hp=1" alt="Мальовничий вид з вікна">
+                <div class="img-caption">Чудовий вид з наших номерів</div>
+            </div>
+            <div class="gallery-item" data-category="facilities">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/275107802.jpg?k=294cca079e917ad62d9e081576d0badf55e39db5f64e23305bd6a869668dd9bf&o=&hp=1" alt="Зона відпочинку">
+                <div class="img-caption">Затишна зона відпочинку для гостей</div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img src="https://holiday-stay-nika-busk.hotelmix.com.ua/data/Photos/1920x1080/16136/1613697/1613697642.JPEG" alt="Сучасний номер">
+                <div class="img-caption">Сучасний інтер'єр з якісним меблями</div>
+            </div>
+            <div class="gallery-item" data-category="facilities">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/275115537.jpg?k=42bc774bf6fbf28a2abf441bccb06ce739d7a89eab3e8bea3f29dabaac86dba9&o=&hp=1" alt="Сніданок">
+                <div class="img-caption">Смачні та поживні сніданки для наших гостей</div>
+            </div>
+            <div class="gallery-item" data-category="view">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/674518742.jpg?k=a612ce8c8c28bcefca76d708cbb2608a79bacb301a3bc801bffd7620e18ea736&o=&hp=1" alt="Вечірній вид">
+                <div class="img-caption">Чарівні вечірні види з тераси</div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/502863694.jpg?k=81e7633b554079c7918e73bcf5dd5e803f403340e60d8c575a1f931b8827290e&o=&hp=1" alt="Двомісний номер">
+                <div class="img-caption">Просторий двомісний номер з робочим кутом</div>
+            </div>
+            <div class="gallery-item" data-category="facilities">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/275107723.jpg?k=6b1832a075d9b4769ccacc9deddffd6eea1be8c223597e5c567997caeaa4e67e&o=&hp=1" alt="Лобі">
+                <div class="img-caption">Сучасне лобі з комфортабельними меблями</div>
+            </div>
+            
+            <div class="gallery-item" data-category="view">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/467317322.jpg?k=ff605c8c120425d27beb167face486a90356d524ee94547b8120f3863e6c446f&o=&hp=1" alt="Вечірній вид">
+                <div class="img-caption">Неймовірні види на басейн</div>
+            </div>
+            <div class="gallery-item" data-category="menu">
+                <img src="https://grono.in.ua/image/cache/catalog/blog/fruktovyy-milksheyk-480x360.jpg" alt="Вечірній вид">
+                <div class="img-caption">Фруктовий мілк-шейк</div>
+            </div>
+             <div class="gallery-item" data-category="menu">
+                <img src="https://assets.dots.live/misteram-public/a4c25bee-b4c5-44bc-bed8-e0f32aff4f8d-826x0.png" alt="Вечірній вид">
+                <div class="img-caption">Піцца салямі</div>
+            </div>
+             <div class="gallery-item" data-category="menu">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/del089923-risotto-web-001-ab-index-64e7a1083b54e.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*" alt="Вечірній вид">
+                <div class="img-caption">Різото класичне</div>
+            </div>
+             <div class="gallery-item" data-category="menu">
+                <img src="https://cdn.loveandlemons.com/wp-content/uploads/2024/12/caesar-salad.jpg" alt="Вечірній вид">
+                <div class="img-caption">Салад цезарь з куркою</div>
+            </div>
+             <div class="gallery-item" data-category="menu">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/275110016.jpg?k=330f8303e0e5da651babeafe1d64280fd5c84015e18c1d77d1ed2eace0976040&o=&hp=1" alt="Вечірній вид">
+                <div class="img-caption">Запечена форель з соусом песто</div>
+            </div>
+             <div class="gallery-item" data-category="menu">
+                <img src="https://www.home-recipes.com.ua/wp-content/uploads/2021/04/kurinyj-shashlyk-na-ajrane-67b97c9.jpg" alt="Вечірній вид">
+                <div class="img-caption">Шашлик курячий</div>
+            </div>
+            <div class="gallery-item" data-category="menu">
+    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1" alt="Соковита яловичина">
+    <div class="img-caption">Медальйони з яловичини</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Ароматна риба">
+    <div class="img-caption">Лосось з лимоном</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Італійська піца">
+    <div class="img-caption">Піца «Маргарита»</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb" alt="Солодкий десерт">
+    <div class="img-caption">Тірамісу</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://images.unian.net/photos/2020_07/1595919237-6638.jpg?0.19634984403781552" alt="Традиційна страва">
+    <div class="img-caption">Вареники з вишнею</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://katana.ua/wp-content/uploads/2020/12/%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82-%D1%80%D0%BE%D0%BB%D1%83-%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F-%D0%B7-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D1%94%D0%BC.jpg" alt="Гостра страва">
+    <div class="img-caption">Суші «Філадельфія»</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Small_Chocolate_Fountain.JPG" alt="Шоколадний фондан">
+    <div class="img-caption">Шоколадний фондан</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://images.unsplash.com/photo-1561758033-7e924f619b47" alt="Курячі крильця">
+    <div class="img-caption">Курячі крильця Buffalo</div>
+</div>
+<div class="gallery-item" data-category="menu">
+    <img src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3" alt="Лазанья">
+    <div class="img-caption">Лазанья з м’ясом</div>
+</div>
+        </div>
+    </div>
+</section>
+
+<!-- Модальне вікно для перегляду фото -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="expandedImg">
+    <div id="imgText" class="img-caption-modal"></div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Holiday Stay Nika</h4>
+                <ul>
+                    <a class="nav-text" href="index.html#home">ГОЛОВНА</a>
+                    <a class="nav-text" href="index.html#about">ПРО НАС</a>
+                    <a class="nav-text" href="index.html#features">ЗРУЧНОСТІ</a>
+                    <a class="nav-text" href="gallery.html">ФОТОГАЛЕРЕЯ</a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакти</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> вул. Приморська, 15, Буськ, Україна</li>
+                    <li><i class="fas fa-phone"></i> +380-068-427-2222</li>
+                    <li><i class="fas fa-envelope"></i> info@holidaystaynika.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Слідкуйте за нами</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/p/nikabusk_official-100070120681571/?locale=uk_UA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/p/C7PcFK4uGdF/?utm_source=ig_web_copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="booking-btn">
+                    <a class='button' href="https://www.booking.com/hotel/ua/holiday-stay-nika.ru.html" target="_blank">ЗАБРОНЮВАТИ НОМЕР</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Holiday Stay Nika. Всі права захищені.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+   // Мобільне меню
+    const burgerMenu = document.querySelector('.burger-menu');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const menuOverlay = document.querySelector('.menu-overlay');
+    const body = document.body;
+    
+    burgerMenu.addEventListener('click', function() {
+        this.classList.toggle('active');
+        mobileNav.classList.toggle('active');
+        menuOverlay.classList.toggle('active');
+        body.classList.toggle('menu-open');
+    });
+    
+    menuOverlay.addEventListener('click', function() {
+        burgerMenu.classList.remove('active');
+        mobileNav.classList.remove('active');
+        this.classList.remove('active');
+        body.classList.remove('menu-open');
+    });
+    
+    document.querySelectorAll('.mobile-nav .nav-item').forEach(item => {
+        item.addEventListener('click', function() {
+            burgerMenu.classList.remove('active');
+            mobileNav.classList.remove('active');
+            menuOverlay.classList.remove('active');
+            body.classList.remove('menu-open');
+        });
+    });
+    
+    // Галерея зображень
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("expandedImg");
+    const captionText = document.getElementById("imgText");
+    const closeBtn = document.getElementsByClassName("close")[0];
+    
+    document.querySelectorAll('.gallery-item img').forEach(img => {
+        img.onclick = function() {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.nextElementSibling.innerHTML;
+        }
+    });
+    
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    
+    // Фільтрація галереї
+    document.querySelectorAll('.category-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            const category = this.getAttribute('data-category');
+            const items = document.querySelectorAll('.gallery-item');
+            
+            items.forEach(item => {
+                if (category === 'all' || item.getAttribute('data-category') === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
